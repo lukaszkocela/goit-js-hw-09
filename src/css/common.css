@@ -16,3 +16,39 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 12px;
+  position: relative;
+}
+
+.timer {
+  display: flex;
+  gap: 50px;
+  margin-top: 150px;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  box-shadow: #212121;
+  border: black 1px dashed;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0 auto;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: darkgoldenrod;
+}
